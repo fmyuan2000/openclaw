@@ -128,8 +128,8 @@ export function renderApp(state: AppViewState) {
                 ...state.settings,
                 navCollapsed: !state.settings.navCollapsed,
               })}
-            title="${state.settings.navCollapsed ? t("common.expandSidebar") : t("common.collapseSidebar")}"
-            aria-label="${state.settings.navCollapsed ? t("common.expandSidebar") : t("common.collapseSidebar")}"
+            title="${state.settings.navCollapsed ? t("topbar.expandSidebar") : t("topbar.collapseSidebar")}"
+            aria-label="${state.settings.navCollapsed ? t("topbar.expandSidebar") : t("topbar.collapseSidebar")}"
           >
             <span class="nav-collapse-toggle__icon">${icons.menu}</span>
           </button>
